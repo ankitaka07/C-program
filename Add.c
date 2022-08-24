@@ -3,7 +3,7 @@
 
 int main()
 {
-	int A, B, sum = 0;
+	int A, B, sub = 0;
 
 	// Ask user to enter the two numbers
 	printf("Enter two numbers A and B : \n");
@@ -13,10 +13,10 @@ int main()
 
 	// Calculate the addition of A and B
 	// using '+' operator
-	sum = A + B;
+	sub = A - B;
 
 	// Print the sum
-	printf("Sum of A and B is: %d", sum);
+	printf("Sum of A and B is: %d", sub);
 
 	return 0;
 }
